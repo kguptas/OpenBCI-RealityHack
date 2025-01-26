@@ -57,7 +57,7 @@
 
 ### 3D Assets
 * [Low Poly Mountain Free](https://sketchfab.com/3d-models/low-poly-mountain-free-dabda46f9be2416c93a4b584be17786b) by Poly Craftsman
- * _Used for background mountain scenery_
+  * _Used for background mountain scenery_
 * _Remaining assets modeled and/or generated with Unity built-in procedural features by our team_
 
 
