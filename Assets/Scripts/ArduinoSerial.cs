@@ -16,6 +16,8 @@ public class ArduinoSerial : MonoBehaviour
     [SerializeField] private AverageBandPowerStream BandPower;
 
     public GameObject uiCanvas;
+    public GameObject orange;
+    public GameObject lavender;
 
 
 
@@ -25,7 +27,7 @@ public class ArduinoSerial : MonoBehaviour
 
     float ave = 0;
     float heart = 0;
-    float changeThresholdEMG = 0.7f;
+    float changeThresholdEMG = 0.6f;
     int frames = 0; 
     bool scent_2_triggered = false;
     bool scent_1_triggered = false;
@@ -87,43 +89,50 @@ public class ArduinoSerial : MonoBehaviour
     	if (Input.GetKeyDown(KeyCode.A))
     	{
         	ScentOne();
+            lavender.SetActive(true);
     	}
 
     	else if (Input.GetKeyDown(KeyCode.S))
     	{
         	ScentTwo();
+            orange.SetActive(true);
     	}
 
-        if (frames % 220 == 0 && !scent_2_triggered && !tracking)
+        if (frames % 60 == 0 && !scent_2_triggered && !tracking)
         {
             float[] data = EMG.Channels;
             ave = data[0]+data[1]+data[2]+data[3]+data[6]+data[7];
             ave = ave/6;
-            Debug.Log("EMG AVE: " + ave);
+            // Debug.Log("EMG AVE: " + ave);
             if(ave >= changeThresholdEMG){
-                ScentOne(); //TODO: change to scent 2
+                ScentTwo(); //TODO: change to scent 2
+                Debug.Log("EMG AVE: " + ave);
                 scent_2_triggered = true;
+                orange.SetActive(true);
             }
         }
-        if (frames % 220 == 0 && !scent_1_triggered && !tracking)
+        if (frames % 60 == 0 && !scent_1_triggered && !tracking)
         {
             float alpha = BandPower.AverageBandPower.Alpha;
           
-            Debug.Log("Alpha: " + alpha);
-            if(alpha <= UserHighestAlpha*0.66){ //if alpha level drops by a third
+            // Debug.Log("Alpha: " + alpha);
+            if(alpha <= UserHighestAlpha*0.55){ //if alpha level drops by a third
                 ScentOne();
+                Debug.Log("Alpha: " + alpha);
                 scent_1_triggered = true;
+                lavender.SetActive(true);
             }
         }
-        if (frames % 660 == 0 && !scent_1_triggered && !tracking) //about three seconds
+        if (frames % 60 == 0 && !scent_1_triggered && !tracking && PPG.GetHeartRateData()[0]!=0) //about three seconds
         {
             float[] data2 = PPG.GetHeartRateData(); //TODO: check if reading data like this is correct
-            Debug.Log("PPG AVE: " + heart);
-            if (data2[0] - heart > 5){ //if bpm jumps by 5 in 3 seconds
-                ScentOne(); 
+            Debug.Log("PPG AVE: " + data2[0] + " " + data2[4]);
+            if (data2[4] - data2[0] > 5){ //if bpm jumps by 5 in 3 seconds
+               ScentOne(); 
+                Debug.Log("PPG triggered: " + data2[0] + " " + data2[4]);
                 scent_1_triggered = true;
+                lavender.SetActive(true);
             }
-            heart = data2[0];
         }
         frames++;
 	}

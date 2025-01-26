@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "OpenBCI-RealityHack.sln"
+    "dotnet.defaultSolution": "GaleaVarjoTest1.sln"
 }
