@@ -1,4 +1,5 @@
-# OpenBCI-RealityHack [change once we decide name]
+# NeuroScent
+[add elevator pitch statement here]
 
 ## Project Setup
 
