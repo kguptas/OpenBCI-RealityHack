@@ -37,21 +37,29 @@
          2. Navigate to **Varjo** (within XR Plugin Management) -> enable Opaque _(since we're not using mixed reality passthrough i.e. the Varjo XR-3)_
 
 ### Hardware
+* Our [name of project] system provides multi-modal biofeedback (via  and multi-sensory immersion with __vision__ (Varjo Aero HMD), __smell__ (NAME HERE)
 * [add files here]
 * Galea
 * Varjo Aero
 * Olfactory Display
 
+
 ## Olfactory Display Fabrication
 
 
-## References
-### Olfactory Displays
-* Project Nebula
+## Acknowledgements
+### Olfactory Display Literature
+* [Nebula: An Affordable Open-Source and Autonomous Olfactory Display for VR Headsets](https://hal.science/hal-03838757v1/file/Nebula_VRST_2022%20%281%29.pdf)
+ * [GitHub Repo](https://github.com/liris-xr/Nebula-Core?tab=readme-ov-file)
 
-### Research Papers
+### Brain-Computer Interfacing Literature
+* [add papers here]
 
 ### 3D Assets
+* [Low Poly Mountain Free](https://sketchfab.com/3d-models/low-poly-mountain-free-dabda46f9be2416c93a4b584be17786b) by Poly Craftsman
+ * _Used for background mountain scenery_
+* _Remaining assets modeled and/or generated with Unity built-in procedural features by our team_
+
 
 
 ## Contact Information
