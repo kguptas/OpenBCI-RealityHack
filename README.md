@@ -67,3 +67,4 @@
 * Peter He
 * Kriti Gupta
 * Grace Jin
+* Ximing Luo
