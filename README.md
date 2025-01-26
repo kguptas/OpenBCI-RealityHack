@@ -50,7 +50,7 @@
 ## Acknowledgements
 ### Olfactory Display Literature
 * [Nebula: An Affordable Open-Source and Autonomous Olfactory Display for VR Headsets](https://hal.science/hal-03838757v1/file/Nebula_VRST_2022%20%281%29.pdf)
- * [GitHub Repo](https://github.com/liris-xr/Nebula-Core?tab=readme-ov-file)
+  * [GitHub Repo](https://github.com/liris-xr/Nebula-Core?tab=readme-ov-file)
 
 ### Brain-Computer Interfacing Literature
 * [add papers here]
