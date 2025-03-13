@@ -3,6 +3,7 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
  * [Devpost](https://devpost.com/software/neuroscent)
  * [Video](https://vimeo.com/1059625069)
+ * [OpenBCI Blog](https://openbci.com/community/openbci-mit-reality-hack-2025/)
 
 ### Overview
 1. Project Setup
