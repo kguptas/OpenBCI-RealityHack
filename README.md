@@ -2,7 +2,7 @@
 Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
  * [Devpost](https://devpost.com/software/neuroscent)
- * [Demo Video](https://vimeo.com/1059625069)
+ * [Video](https://vimeo.com/1059625069)
 
 ### Overview
 1. Project Setup
