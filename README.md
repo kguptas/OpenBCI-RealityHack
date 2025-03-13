@@ -1,6 +1,8 @@
 # NeuroScent
 Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
+[Watch the video here](https://vimeo.com/1059625069)
+
 ## Project Setup
 **Prerequisites** – Before we get started, make sure to install the following:
    1. Unity Hub
