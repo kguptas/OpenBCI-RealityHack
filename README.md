@@ -1,7 +1,15 @@
 # NeuroScent
 Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
-[Watch the video here](https://vimeo.com/1059625069)
+## Overview
+* Resources
+   * [Devpost](https://devpost.com/software/neuroscent)
+   * [Demo Video](https://vimeo.com/1059625069)
+1. Project Setup
+2. Software
+3. Hardware
+4. Acknowledgements
+5. Contact Us
 
 ## Project Setup
 **Prerequisites** – Before we get started, make sure to install the following:
