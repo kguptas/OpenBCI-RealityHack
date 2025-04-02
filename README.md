@@ -3,7 +3,7 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
  * [Devpost](https://devpost.com/software/neuroscent)
  * [Video](https://vimeo.com/1059625069)
- * [OpenBCI Blog](https://openbci.com/community/openbci-mit-reality-hack-2025/)
+ * [OpenBCI Blog Feature](https://openbci.com/community/openbci-mit-reality-hack-2025/)
 
 ### Overview
 1. Project Setup
@@ -33,7 +33,7 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
 2. **Open the Project via Unity Hub**
    1. Open Unity Hub → **Add** → select the cloned repository (root directory) → **Add Project**
-      1. _It’s recommended that all collaborators use the **same version of Unity**!_ See below for the version that we used.
+      1. _It’s recommended that all collaborators use the **same version of Unity**!_ Please refer above for the version that we used.
 
 3. **OpenBCI's Galea Setup**
    * _The Galea private software downloads are accessible to Galea owners via http://portal.galea.co/docs_
@@ -59,15 +59,15 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
          2. Navigate to **Varjo** (within XR Plugin Management) -> enable Opaque _(since we're not using mixed reality passthrough i.e. the Varjo XR-3)_
 
 ## Hardware
-* Our NeuroScent system provides multi-modal biofeedback with multi-sensory immersion via __vision__ (Varjo Aero HMD), __smell__ (Project Nebula). Below is a summarized outline of all of the hardware components:
+* Our NeuroScent system provides multi-modal biofeedback with multi-sensory immersion via __vision__ (Varjo Aero HMD) and __smell__ (Project Nebula). Below is a summarized outline of all of the hardware components:
  * Biofeedback – **OpenBCI Galea** *(which features PPG, EMG, EEG, EDA, EEG biosensors)*
     * In NeuroScent's current version *(as seen at MIT Reality Hack 2025)*, we only integrated **PPG** (heart rate), **EMG** (facial muscle movement), and **EEG** (non-invasive BCI with dry electrodes) – but the system's logic could be adapted to other sensing capaibilities
  * Vision – **Varjo Aero** *(VR-only head-mounted display)*
  * Smell – **Project Nebula** *(olfactory display as seen at IEEE VR 2024)*
 
 ### Olfactory Display Fabrication
-* Please view [this documentation](https://docs.google.com/document/d/1BrtnZrWLWDk0qlDV_beyICGC32R3iqAFLgKVBNhAAQE/edit?usp=sharing) that Ashley Neall created with the guidance of one of the Project Nebula authors. Project Nebula is a cartridge-based olfactory display project that was demoed at IEEE VR 2024. We also highly recommend to read through [this paper](https://hal.science/hal-03838757v1/file/Nebula_VRST_2022%20%281%29.pdf) from VRST 2022.
-* We recreated Project Nebula with limited supplies during the span of MIT Reality Hack 2025 _(which is a 3-day hackathon)_, so we suggest looking at the documentation above. We will add additional information (e.g. STL files, Arduino code, updated wiring diagram) soon!
+* Please view [this documentation](https://docs.google.com/document/d/1BrtnZrWLWDk0qlDV_beyICGC32R3iqAFLgKVBNhAAQE/edit?usp=sharing) that Ashley Neall created with the guidance of Sophie Villenave – one of the Project Nebula authors. Project Nebula is a cartridge-based olfactory display project that was demoed to Ashley at IEEE VR 2024. We also highly recommend to read through [this paper](https://hal.science/hal-03838757v1/file/Nebula_VRST_2022%20%281%29.pdf) from VRST 2022.
+* We recreated Project Nebula with limited supplies during the span of MIT Reality Hack 2025 _(which is a 3-day hackathon)_, so we highly recommend looking at the documentation above. We will add additional information (e.g. STL files, Arduino code, updated wiring diagram) as soon as we can.
 
 
 ## Acknowledgements
@@ -76,7 +76,7 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
   * [GitHub Repo](https://github.com/liris-xr/Nebula-Core?tab=readme-ov-file)
 
 ### Brain-Computer Interfacing Literature
-* [add papers here]
+* [will be added soon]
 
 ### 3D Assets
 * [Low Poly Mountain Free](https://sketchfab.com/3d-models/low-poly-mountain-free-dabda46f9be2416c93a4b584be17786b) by Poly Craftsman
