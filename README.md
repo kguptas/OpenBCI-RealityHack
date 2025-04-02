@@ -85,7 +85,7 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
 
 
 
-## Contact Information
+## Contact Us
 * [Ashley Neall](https://aneall.github.io/)
 * Peter He
 * Kriti Gupta
