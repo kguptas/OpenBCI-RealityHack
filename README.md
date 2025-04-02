@@ -6,11 +6,11 @@ Mental well-being with immersive **scent**, **vision**, and __biofeedback__.
  * [OpenBCI Blog Feature](https://openbci.com/community/openbci-mit-reality-hack-2025/)
 
 ### Overview
-1. Project Setup
-2. Software
-3. Hardware
-4. Acknowledgements
-5. Contact Us
+1. [Project Setup](https://github.com/kguptas/OpenBCI-RealityHack/blob/master/README.md#project-setup)
+2. [Software](https://github.com/kguptas/OpenBCI-RealityHack/blob/master/README.md#software)
+3. [Hardware](https://github.com/kguptas/OpenBCI-RealityHack/blob/master/README.md#hardware)
+4. [Acknowledgements](https://github.com/kguptas/OpenBCI-RealityHack/blob/master/README.md#acknowledgements)
+5. [Contact Us](https://github.com/kguptas/OpenBCI-RealityHack/blob/master/README.md#contact-information)
 
 ## Project Setup
 **Prerequisites** – Before we get started, make sure to install the following:
